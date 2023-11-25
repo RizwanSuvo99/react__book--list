@@ -6,7 +6,9 @@
 .wrapper {
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #FCFFE7;
+  background-color: #42032c;
+  color: #f1efdc;
+  min-height: 100vh;
 }
 
 .wrapper h1 {
@@ -29,18 +31,21 @@
 .wrapper .form-container {
   width: 500px;
   height: 430px;
-  background-color: #e4e4e4;
+  background-color: #d36b00;
   margin: 20px auto;
   padding: 20px;
+  color: #fff;
 }
 
 .wrapper .form-container .btn {
   width: 100%;
+  background-color: #411530;
+  border: none;
 }
 
 .wrapper .view-container {
   width: 600px;
-  background-color: #e4e4e4;
+  background-color: #d36b00;
   margin: 20px auto;
   padding: 20px;
   display: flex;
